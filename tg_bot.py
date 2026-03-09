@@ -177,7 +177,7 @@ def format_for_telegram(parts: List[PartResult]) -> str:
 # ==================== ТЕЛЕГРАМ БОТ ====================
 
 # Токен бота (получите у @BotFather)
-BOT_TOKEN = "8511717694:AAGSSgTY15tQxvfxpnMot-ulmow3ea7G3v4"  # <--- ЗАМЕНИТЕ НА СВОЙ ТОКЕН
+BOT_TOKEN = ""  # <--- ЗАМЕНИТЕ НА СВОЙ ТОКЕН
 
 # Инициализация бота
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode='HTML')
