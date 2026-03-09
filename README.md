@@ -9,15 +9,15 @@ cd Hakaton_2026_YF
 2. Установить зависимости
 bash
 pip install ultralytics opencv-python numpy matplotlib pyTelegramBotAPI
-3. Получить токен бота
+#3. Получить токен бота
 Напишите @BotFather в Telegram
 
 Отправьте /newbot
 
 Придумайте имя и username для бота
-
+ 
 Скопируйте полученный токен (выглядит как 7234567890:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw)
-
+            
 4. Вставить токен в код
 Откройте файл tg_bot.py и найдите строку:
 
@@ -27,6 +27,7 @@ BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 
 python
 BOT_TOKEN = "7234567890:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw"
+
 5. Запустить бота
 bash
 python tg_bot.py
