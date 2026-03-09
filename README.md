@@ -6,14 +6,16 @@ segment_plants.py - Скрипт для обучения модели
 
 1. Скачать репозиторий
 bash
+
 git clone https://github.com/1skanderF/Hakaton_2026_YF.git
 cd Hakaton_2026_YF
 
 3. Установить зависимости
 bash
+
 pip install ultralytics opencv-python numpy matplotlib pyTelegramBotAPI
 
-4. Получить токен бота
+5. Получить токен бота
 Напишите @BotFather в Telegram
 
 Отправьте /newbot
@@ -26,12 +28,14 @@ pip install ultralytics opencv-python numpy matplotlib pyTelegramBotAPI
 Откройте файл tg_bot.py и найдите строку:
 
 python
+
 BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 Замените YOUR_BOT_TOKEN_HERE на ваш токен:
 
 
 5. Запустить бота
 bash
+
 python tg_bot.py
 🤖 Как пользоваться
 Отправьте боту команду /start
