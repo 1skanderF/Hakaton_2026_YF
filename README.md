@@ -28,8 +28,6 @@ python
 BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 Замените YOUR_BOT_TOKEN_HERE на ваш токен:
 
-python
-BOT_TOKEN = "7234567890:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw"
 
 5. Запустить бота
 bash
